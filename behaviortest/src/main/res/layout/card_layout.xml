@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c0c0c0"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:id="@+id/card_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="我是卡片"
+        android:textColor="#fff"
+        android:background="#000"/>
+
+</merge>
